@@ -158,6 +158,9 @@ After generating the bitstream, auto-connect the Zybo Z10 board and program the 
 
 There are examples of waveforms and results from MATLAB and Vivado as images in the **Results and Waveforms** folder.
 
+Result
+<img src="Results_and_Waveforms/CIC_Result_Input_vs_Output.png" width="600">
+
 ---
 
 ## **FPGA Implementation on Zybo Z10**
