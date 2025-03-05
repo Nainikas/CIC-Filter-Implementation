@@ -134,7 +134,7 @@ After generating the bitstream, auto-connect the Zybo Z10 board and program the 
 ---
 ## Example results and Waveforms from Simulation and MATLAB
 
-There are examples of waveforms and results from MATLAB as images in the **Results and Waveforms** folder.
+There are examples of waveforms and results from MATLAB and Vivado as images in the **Results and Waveforms** folder.
 
 ---
 
