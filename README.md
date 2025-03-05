@@ -1,7 +1,7 @@
 # CIC Filter Implementation on Zybo Z10 FPGA
 
 ## Overview
-This project implements a **Cascaded Integrator-Comb (CIC) filter** in Verilog and deploys it on a **Zybo Z10 FPGA**. The CIC filter is tested with **sine wave inputs at 8MHz, 16MHz, and 24MHz** and evaluated using MATLAB. CIC filters are used in **high-speed DSP applications** such as **software-defined radio (SDR), audio processing, and high-rate ADC downsampling**.
+This project implements a **Cascaded Integrator-Comb (CIC) filter** in Verilog and deploys it on a **Zybo Z10 FPGA**. The CIC filter is tested with **sine wave inputs at 8MHz, 16MHz, and 24MHz** and evaluated using MATLAB. This CIC clips off frequencies of 24MHz. CIC filters are used in **high-speed DSP applications** such as **software-defined radio (SDR), audio processing, and high-rate ADC downsampling**.
 
 ### **Key Features**
 ✔ **RTL implementation in Verilog**  
