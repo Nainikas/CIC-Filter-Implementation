@@ -132,6 +132,11 @@ run('matlab/analyze_output.m'); % Compare CIC output
 After generating the bitstream, auto-connect the Zybo Z10 board and program the device with the generated bitstream (.bit) file.
 
 ---
+## Example results and Waveforms from Simulation and MATLAB
+
+There are examples of waveforms and results from MATLAB as images in the **Results and Waveforms** folder.
+
+---
 
 ## **FPGA Implementation on Zybo Z10**
 ### **1. Synthesis in Vivado**
