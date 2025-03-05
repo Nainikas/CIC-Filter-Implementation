@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cic_tb_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="cic_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="3.868751 us"></ZoomEndTime>
+      <Cursor1Time time="0.081250 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="125"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wave_markers>
+      <marker time="443750" label="" />
+   </wave_markers>
+   <wvobject fp_name="/cic_tb/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_tb/rst_tb" type="logic">
+      <obj_property name="ElementShortName">rst_tb</obj_property>
+      <obj_property name="ObjectShortName">rst_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_tb/ce_tb" type="logic">
+      <obj_property name="ElementShortName">ce_tb</obj_property>
+      <obj_property name="ObjectShortName">ce_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_tb/ce_r_tb" type="logic">
+      <obj_property name="ElementShortName">ce_r_tb</obj_property>
+      <obj_property name="ObjectShortName">ce_r_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_tb/clk_div_tb" type="other">
+      <obj_property name="ElementShortName">clk_div_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_div_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_tb/d_tb" type="array">
+      <obj_property name="ElementShortName">d_tb[17:0]</obj_property>
+      <obj_property name="ObjectShortName">d_tb[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_tb/q_tb" type="array">
+      <obj_property name="ElementShortName">q_tb[29:0]</obj_property>
+      <obj_property name="ObjectShortName">q_tb[29:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_tb/CI_SIZE" type="other">
+      <obj_property name="ElementShortName">CI_SIZE</obj_property>
+      <obj_property name="ObjectShortName">CI_SIZE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_tb/CO_SIZE" type="other">
+      <obj_property name="ElementShortName">CO_SIZE</obj_property>
+      <obj_property name="ObjectShortName">CO_SIZE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_tb/STAGES" type="other">
+      <obj_property name="ElementShortName">STAGES</obj_property>
+      <obj_property name="ObjectShortName">STAGES</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_tb/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+</wave_config>
