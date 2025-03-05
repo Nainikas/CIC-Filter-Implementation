@@ -119,6 +119,19 @@ disp('Input vs. output sine waves plotted.');
 ```
 
 ---
+## 📌 Quick Start Guide
+
+### 1️⃣ Running MATLAB Scripts
+To generate test sine waves and analyze CIC filter output, run the following scripts in MATLAB:
+
+```matlab
+run('matlab/generate_sinewaves.m'); % Generate test signals
+run('matlab/analyze_output.m'); % Compare CIC output
+```
+### 2️⃣ Programming the Zybo Z10 FPGA
+After generating the bitstream, auto-connect the Zybo Z10 board and program the device with the generated bitstream (.bit) file.
+
+---
 
 ## **FPGA Implementation on Zybo Z10**
 ### **1. Synthesis in Vivado**
@@ -147,3 +160,9 @@ Vivado Version: 2023.1
 ✔️ Improve fixed-point scaling techniques for high-precision filtering.
 
 
+---
+
+### **License**
+
+This project is licensed under the **MIT License**.  
+You are free to modify and distribute it with proper attribution.  
