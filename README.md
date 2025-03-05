@@ -13,8 +13,8 @@ This project implements a **Cascaded Integrator-Comb (CIC) filter** in Verilog a
 ---
 
 ## **Project Structure**
-CIC_Filter_Project/ │── src/ # Verilog source files │ ├── cic_filter.v # Main CIC filter implementation │ ├── cic_testbench.v # Testbench for simulation │ │── sim/ # Simulation outputs │ ├── output_8MHz.txt │ ├── output_16MHz.txt │ ├── output_24MHz.txt │ │── matlab/ # MATLAB scripts for analysis │ ├── generate_sinewaves.m # Generates test sine waves │ ├── analyze_output.m # Plots input vs. filtered output │ │── fpga/ # FPGA Synthesis files │ ├── zybo_z10_bitstream.bit # FPGA bitstream for Zybo Z10 │ ├── utilization_report.txt # FPGA resource utilization │ ├── timing_report.txt # FPGA timing closure results │ │── docs/ # Documentation │ ├── cic_filter_analysis.pdf # Theoretical explanation │ ├── cic_filter_plots.png # MATLAB frequency response plots │ 
-
+CIC_Filter_Project/ │── src/ # Verilog source files │ ├── cic_filter.v # Main CIC filter implementation │ ├── cic_testbench.v # Testbench for simulation │ │── sim/ # Simulation outputs │ ├── output_8MHz.txt │ ├── output_16MHz.txt │ ├── output_24MHz.txt │ │── matlab/ # MATLAB scripts for analysis │ ├── generate_sinewaves.m # Generates test sine waves │ ├── analyze_output.m # Plots input vs. filtered output │ │── fpga/ # FPGA Synthesis files │ ├── zybo_z10_bitstream.bit # FPGA bitstream for Zybo Z10 │ ├── reports/ utilization_report.txt # FPGA resource utilization │ ├── timing_report.txt # FPGA timing closure results │
+├── Results_and_Waveforms
 
 ---
 
