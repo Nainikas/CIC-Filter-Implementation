@@ -13,10 +13,31 @@ This project implements a **Cascaded Integrator-Comb (CIC) filter** in Verilog a
 ---
 
 ## **Project Structure**
-```
-CIC_Filter_Project/ │── src/ # Verilog source files │ ├── cic_filter.v # Main CIC filter implementation │ ├── cic_testbench.v # Testbench for simulation │ │── sim/ # Simulation outputs │ ├── output_8MHz.txt │ ├── output_16MHz.txt │ ├── output_24MHz.txt │ │── matlab/ # MATLAB scripts for analysis │ ├── generate_sinewaves.m # Generates test sine waves │ ├── analyze_output.m # Plots input vs. filtered output │ │── fpga/ # FPGA Synthesis files │ ├── zybo_z10_bitstream.bit # FPGA bitstream for Zybo Z10 │ ├── reports/ utilization_report.txt # FPGA resource utilization │ ├── timing_report.txt # FPGA timing closure results │
-├── Results_and_Waveforms
-```
+CIC-Filter-Implementation-using-VHDL/
+- **src/** *(VHDL source files)*
+  - `cic.vhd` *(Main CIC filter implementation)*
+- **sim/** *(Simulation outputs)*
+  - `cic_tb.vhd` *(Testbench for verification)*
+- **matlab/** *(MATLAB scripts for analysis)*
+  - `generate_sinewaves.m` *(Generates test sine waves)*
+  - `analyze_output.m` *(Plots input vs. filtered output)*
+  - `simwave_8MHz.txt`*(Plot for 8MHz sine wave)*
+  - `simwave_16MHz.txt`*(Plot for 16MHz sine wave)*
+  - `simwave_24MHz.txt`*(Plot for 24MHz sine wave)*
+- **zybo_z10_bitstream/** *(FPGA Synthesis files)*
+  - `cic.bit` *(Bitstream for Zybo Z10)*
+- **reports/** *(FPGA Synthesis files)*
+  - `utilization_report.txt` *(FPGA resource utilization)*
+  - `timing_report.txt` *(FPGA timing closure results)*
+- **Results_and_Waveforms/** *(Waveforms & analysis results)*
+  - `cic_tb_behav.wcfg` *(Vivado waveform config)*
+  - `CIC_Result_Imput_vs_Output.png` *(MATLAB generated result waveform)*
+  - `8MHz.png` *(MATLAB generated waveform)*
+  - `16MHz.png` *(MATLAB generated waveform)*
+  - `24MHz.png` *(MATLAB generated waveform)*
+  - `Block_Diagram.png`
+- **LICENSE** *(Open-source license)*
+
 ---
 
 ## **CIC Filter Implementation**
