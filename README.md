@@ -146,5 +146,4 @@ Vivado Version: 2023.1
 ✔️ Add configurable decimation factors via FPGA control registers.
 ✔️ Improve fixed-point scaling techniques for high-precision filtering.
 
-## License
-This project is licensed under the MIT License. Feel free to modify and use it in your research or projects.
+
