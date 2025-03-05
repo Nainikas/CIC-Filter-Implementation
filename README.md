@@ -66,7 +66,7 @@ for f = frequencies
 end
 
 disp('Sine wave files generated.');
-
+```
 ### **2. Analyzing FPGA Output**
 After processing the sine waves through the CIC filter, the FPGA generates filtered outputs saved as:
 
@@ -116,7 +116,7 @@ for i = 1:length(frequencies)
 end
 
 disp('Input vs. output sine waves plotted.');
-
+```
 
 ---
 
